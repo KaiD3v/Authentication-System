@@ -1,0 +1,14 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10rem;
+  background-color: #0e1217;
+  border: solid 1px;
+  border-radius: 2rem;
+}
+
+.login-container h1{
+    text-align: center;
+}
+

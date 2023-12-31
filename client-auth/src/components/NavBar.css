@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    padding: .5rem 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    background-color: #121212;
+    height: 3rem;
+}
+
+nav ol{
+    display: flex;
+    gap: 1rem;
+}
+
+nav h1 a{
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+}
+
+nav a{
+    color: #fff;
+    opacity: .7;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+}
+
+nav a:hover{
+    opacity: 1;
+}
+
+.active{
+    background-color: #fff;
+}

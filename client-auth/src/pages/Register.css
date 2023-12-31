@@ -1,0 +1,43 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10rem;
+  background-color: #0e1217;
+  border: solid 1px;
+  border-radius: 2rem;
+}
+
+.register-container h1 {
+  text-align: center;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control input {
+  text-align: center;
+  padding: 0.5rem 3rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 0.9rem;
+  cursor: pointer;
+  border: solid 1px #0e1217;
+  transition: ease-in-out 0.3s;
+}
+
+.form-control input[type="submit"] {
+  margin: 5px;
+  width: 10rem;
+}
+
+.form-control input[type="submit"]:hover {
+  background-color: #0e1217;
+  color: #fff;
+  border: solid 1px #fff;
+}
